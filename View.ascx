@@ -22,88 +22,90 @@
         </div>
         <div class="small-12 large-8 columns kk_aj_arrangorstodblockChange">
             <label for="kk_aj_stdmotivering">Standardmotivering</label>
-            <nav class="top-bar" data-topbar data-options="mobile_show_parent_link: false" role="navigation">
-                <section class="kk_aj_stdmotiveringblock top-bar-section">
-                    <ul id="kk_aj_stdmotivering" class=" kk_aj_stdmotivering">
-                        <li class="has-dropdown not-click">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Godkänn <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-                            <ul class="dropdown">
-                                <li class="has-dropdown not-click"><a href="#" class="stdmottext">Gör om gör rätt!</a>
-                                    <ul class="dropdown">                            
-                                        <li>
-                                            <label>Hela motiveringen</label></li>
-                                        <li><a href="#" class="premotivering">Gör om gör rätt! Allt </a></li>
+            
+                
+                    <ul class="top-level-menu">
+                        <li>
+                            <a class="godkandlabel" href="#">Godkänn <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                            <ul class="second-level-menu">            
+                                <li>
+                                    <a href="#">Alt 1 <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                                    <ul class="third-level-menu">
+                                        <li class="motivlabel"><label>Hela motiveringen</label></li>
+                                        <li class="motiv_alt">Book a Meeting Book a Meeting Book a Meeting Book a Meeting Book a MeetingBook a Meeting </li>                    
                                     </ul>
                                 </li>
-                               <li class="has-dropdown not-click"><a href="#" class="stdmottext">Gör om gör rätt!</a>
-                                    <ul class="dropdown">                            
-                                        <li>
-                                            <label>Hela motiveringen</label></li>
-                                        <li><a href="#" class="premotivering">Gör om gör rätt! Allt </a></li>
+                                <li>
+                                    <a href="#">Alt 2 <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                                    <ul class="third-level-menu">
+                                        <li class="motivlabel"><label>Hela motiveringen</label></li>
+                                        <li class="motiv_alt">Book a Meeting Book a Meeting Book a Meeting Book a Meeting Book a MeetingBook a Meeting </li>                    
                                     </ul>
                                 </li>
-                               <li class="has-dropdown not-click"><a href="#" >Gör om gör rätt!</a>
-                                    <ul class="dropdown">                                       
-                                       <li>
-                                            <label>Hela motiveringen</label></li>
-                                        <li><a href="#" class="premotivering">Gör om gör rätt! Allt </a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="has-dropdown not-click"><a href="#" data-toggle="dropdown">Neka <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-                            <ul class="dropdown">
-                                <li class="has-dropdown not-click"><a href="#" >Gör om gör rätt!</a>
-                                    <ul class="dropdown">                                                                                
-                                        <li>
-                                            <label>Hela motiveringen</label></li>
-                                        <li><a href="#" class="premotivering">Gör om gör rätt! Allt </a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown not-click"><a href="#" >Gör om gör rätt!</a>
-                                    <ul class="dropdown">                                        
-                                        <li>
-                                            <label>Hela motiveringen</label></li>
-                                        <li><a href="#" class="premotivering">Gör om gör rätt! Allt </a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown not-click"><a href="#" >Gör om gör rätt!</a>
-                                    <ul class="dropdown stdmottext">                                        
-                                        <li>
-                                            <label>Hela motiveringen</label></li>
-                                        <li class="stdmottextAll"><a href="#" class="premotivering" >Gör om gör rätt! Allt Gör om gör rätt! Allt Gör om gör rätt! Allt Gör om gör rätt! Allt Gör om gör rätt! Allt Gör om gör rätt! Allt Gör om gör rätt! Allt Gör om gör rätt! Allt </a></li>
+                                <li>
+                                    <a href="#">Alt 3 <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                                    <ul class="third-level-menu">
+                                        <li class="motivlabel"><label>Hela motiveringen</label></li>
+                                        <li class="motiv_alt">Book a Meeting Book a Meeting Book a Meeting Book a Meeting Book a MeetingBook a Meeting </li>                    
                                     </ul>
                                 </li>
                             </ul>
                         </li>
-                        <li class="has-dropdown not-click"><a href="#" data-toggle="dropdown">Övrigt <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-                            <ul class="dropdown">
-                                <li class="has-dropdown not-click"><a href="#" class="stdmottext">Gör om gör rätt!</a>
-                                    <ul class="dropdown">
-                                        <li>
-                                            <label>Hela motiveringen</label></li>
-                                        <li><a href="#" class="premotivering">Gör om gör rätt! Allt </a></li>
+                        <li>
+                            <a class="nekalabel" href="#">Neka <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                            <ul class="second-level-menu">            
+                                <li>
+                                    <a href="#">Alt 1 <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                                    <ul class="third-level-menu">
+                                        <li class="motivlabel"><label>Hela motiveringen</label></li>
+                                        <li class="motiv_alt">Book a Meeting Book a Meeting Book a Meeting Book a Meeting Book a MeetingBook a Meeting </li>                    
                                     </ul>
                                 </li>
-                                <li class="has-dropdown not-click"><a href="#" class="stdmottext">Gör om gör rätt!</a>
-                                    <ul class="dropdown">
-                                        <li>
-                                            <label>Hela motiveringen</label></li>
-                                        <li  class="stdmottextAll"><a href="#" class="premotivering">Gör om gör rätt! Allt detta är en lång text som kan klistras in </a></li>
+                                <li>
+                                    <a href="#">Alt 2 <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                                    <ul class="third-level-menu">
+                                        <li class="motivlabel"><label>Hela motiveringen</label></li>
+                                        <li class="motiv_alt">Book a Meeting Book a Meeting Book a Meeting Book a Meeting Book a MeetingBook a Meeting </li>                    
                                     </ul>
                                 </li>
-                                <li class="has-dropdown not-click"><a href="#" class="stdmottext">Gör om gör rätt!</a>
-                                    <ul class="dropdown">
-                                         <li>
-                                            <label>Hela motiveringen</label></li>
-                                        <li ><a href="#" class="premotivering">Gör om gör rätt! Allt </a></li>
+                                <li>
+                                    <a href="#">Alt 3 <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                                    <ul class="third-level-menu">
+                                        <li class="motivlabel"><label>Hela motiveringen</label></li>
+                                        <li class="motiv_alt">Book a Meeting Book a Meeting Book a Meeting Book a Meeting Book a MeetingBook a Meeting </li>                    
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="ovrigtlabel" href="#">Övrigt <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                            <ul class="second-level-menu">            
+                                <li>
+                                    <a href="#">Alt 1 <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                                    <ul class="third-level-menu">
+                                        <li class="motivlabel"><label>Hela motiveringen</label></li>
+                                        <li class="motiv_alt">Book a Meeting Book a Meeting Book a Meeting Book a Meeting Book a MeetingBook a Meeting </li>                    
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Alt 2 <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                                    <ul class="third-level-menu">
+                                        <li class="motivlabel"><label>Hela motiveringen</label></li>
+                                        <li class="motiv_alt">Book a Meeting Book a Meeting Book a Meeting Book a Meeting Book a MeetingBook a Meeting </li>                    
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Alt 3 <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                                    <ul class="third-level-menu">
+                                        <li class="motivlabel"><label>Hela motiveringen</label></li>
+                                        <li class="motiv_alt">Book a Meeting Book a Meeting Book a Meeting Book a Meeting Book a MeetingBook a Meeting </li>                    
                                     </ul>
                                 </li>
                             </ul>
                         </li>
                     </ul>
-                </section>
-            </nav>
+                
+            
         </div>
     </div>
     <div class="row">
