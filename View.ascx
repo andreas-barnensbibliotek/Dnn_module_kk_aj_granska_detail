@@ -1,10 +1,12 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="true" CodeBehind="View.ascx.vb" Inherits="kulturkatalogenpublik.aj.kk_aj_granska_detail.View" %>
 <div class="kk_aj_granskablock">
-    
+    <div class="row">
+        <div class="small-12  columns">  
 <h2 class="kk_aj_granskaHeader">Granska ditt arrangemang</h2>
 <p class="kk_aj_granskaparagraf" style="display:none;">Detta är en förhandgranskning! Arrangemanget är inte ännu behandlad av eller publicerad av kulturkatalogen väst!</p>
 <div class="kk_aj_granskaBehandlat" style="display:none;">Du har nu Godkänt/Nekat arrangemanget! Behöver du göra ändringar eller annan behandling av arrangemanget. Logga då in på <a href="/Login">kulturkatalogens administrativa sidor!</a></div>
-
+</div>
+        </div>
 <div id="motiveringEditblock" runat="server" class="motiveringEditblock" rel="">
 
     <div class="row">
@@ -29,78 +31,50 @@
                             <a class="godkandlabel" href="#">Godkänn <i class="fa fa-caret-down" aria-hidden="true"></i></a>
                             <ul class="second-level-menu">            
                                 <li>
-                                    <a href="#">Alt 1 <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                                    <a href="#">Externlagring<i class="fa fa-caret-right" aria-hidden="true"></i></a>
                                     <ul class="third-level-menu">
                                         <li class="motivlabel"><label>Hela motiveringen</label></li>
-                                        <li class="motiv_alt">Book a Meeting Book a Meeting Book a Meeting Book a Meeting Book a MeetingBook a Meeting </li>                    
+                                        <li class="motiv_alt">Arrangemanget är godkänt. Motivering finns dokumenterad på denna plats:</li>                    
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#">Alt 2 <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                                    <a href="#">Tidigare godkänd <i class="fa fa-caret-right" aria-hidden="true"></i></a>
                                     <ul class="third-level-menu">
                                         <li class="motivlabel"><label>Hela motiveringen</label></li>
-                                        <li class="motiv_alt">Book a Meeting Book a Meeting Book a Meeting Book a Meeting Book a MeetingBook a Meeting </li>                    
+                                        <li class="motiv_alt">Arrangemanget är tidigare godkänd.</li>                    
                                     </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Alt 3 <i class="fa fa-caret-right" aria-hidden="true"></i></a>
-                                    <ul class="third-level-menu">
-                                        <li class="motivlabel"><label>Hela motiveringen</label></li>
-                                        <li class="motiv_alt">Book a Meeting Book a Meeting Book a Meeting Book a Meeting Book a MeetingBook a Meeting </li>                    
-                                    </ul>
-                                </li>
+                                </li>                                                                   
                             </ul>
                         </li>
                         <li>
                             <a class="nekalabel" href="#">Neka <i class="fa fa-caret-down" aria-hidden="true"></i></a>
                             <ul class="second-level-menu">            
                                 <li>
-                                    <a href="#">Alt 1 <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                                    <a href="#">Lagra <i class="fa fa-caret-right" aria-hidden="true"></i></a>
                                     <ul class="third-level-menu">
                                         <li class="motivlabel"><label>Hela motiveringen</label></li>
-                                        <li class="motiv_alt">Book a Meeting Book a Meeting Book a Meeting Book a Meeting Book a MeetingBook a Meeting </li>                    
+                                        <li class="motiv_alt">Arrangemanget är nekat. Motivering finns dokumenterad på denna plats:</li>                    
                                     </ul>
-                                </li>
+                                </li> 
                                 <li>
-                                    <a href="#">Alt 2 <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                                    <a href="#">Tidigare nekat <i class="fa fa-caret-right" aria-hidden="true"></i></a>
                                     <ul class="third-level-menu">
                                         <li class="motivlabel"><label>Hela motiveringen</label></li>
-                                        <li class="motiv_alt">Book a Meeting Book a Meeting Book a Meeting Book a Meeting Book a MeetingBook a Meeting </li>                    
+                                        <li class="motiv_alt">Arrangemanget är tidigare nekat.</li>                    
                                     </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Alt 3 <i class="fa fa-caret-right" aria-hidden="true"></i></a>
-                                    <ul class="third-level-menu">
-                                        <li class="motivlabel"><label>Hela motiveringen</label></li>
-                                        <li class="motiv_alt">Book a Meeting Book a Meeting Book a Meeting Book a Meeting Book a MeetingBook a Meeting </li>                    
-                                    </ul>
-                                </li>
+                                </li>                                   
                             </ul>
                         </li>
                         <li>
                             <a class="ovrigtlabel" href="#">Övrigt <i class="fa fa-caret-down" aria-hidden="true"></i></a>
                             <ul class="second-level-menu">            
                                 <li>
-                                    <a href="#">Alt 1 <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                                    <a href="#">Komplettering <i class="fa fa-caret-right" aria-hidden="true"></i></a>
                                     <ul class="third-level-menu">
                                         <li class="motivlabel"><label>Hela motiveringen</label></li>
-                                        <li class="motiv_alt">Book a Meeting Book a Meeting Book a Meeting Book a Meeting Book a MeetingBook a Meeting </li>                    
+                                        <li class="motiv_alt">Arrangemanget avvaktas till kompletteringar inkommer</li>                    
                                     </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Alt 2 <i class="fa fa-caret-right" aria-hidden="true"></i></a>
-                                    <ul class="third-level-menu">
-                                        <li class="motivlabel"><label>Hela motiveringen</label></li>
-                                        <li class="motiv_alt">Book a Meeting Book a Meeting Book a Meeting Book a Meeting Book a MeetingBook a Meeting </li>                    
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Alt 3 <i class="fa fa-caret-right" aria-hidden="true"></i></a>
-                                    <ul class="third-level-menu">
-                                        <li class="motivlabel"><label>Hela motiveringen</label></li>
-                                        <li class="motiv_alt">Book a Meeting Book a Meeting Book a Meeting Book a Meeting Book a MeetingBook a Meeting </li>                    
-                                    </ul>
-                                </li>
+                                </li>                                
                             </ul>
                         </li>
                     </ul>
